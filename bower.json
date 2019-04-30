@@ -1,19 +1,19 @@
 {
-  "name": "incubator-paginator",
+  "name": "vcf-paginator",
   "homepage": "https://vaadin.com/components",
   "authors": [
     "Vaadin Ltd"
   ],
-  "description": "incubator-paginator",
-  "main": "incubator-paginator.html",
+  "description": "vcf-paginator",
+  "main": "vcf-paginator.html",
   "keywords": [
     "Vaadin",
-    "incubator-paginator",
+    "vcf-paginator",
     "web-components",
     "web-component",
     "polymer"
   ],
-  "license": "https://raw.githubusercontent.com/vaadin/incubator-paginator/master/LICENSE",
+  "license": "https://raw.githubusercontent.com/vaadin/vcf-paginator/master/LICENSE",
   "ignore": [
     "**/.*",
     "node_modules",

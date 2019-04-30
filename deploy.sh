@@ -1,0 +1,1 @@
+curl -OJ -H "Content-Type: application/json" -d '{"groupId": "com.vaadin.webjar", "license": { "SomeLicenseID": "https://raw.githubusercontent.com/vaadin/vcf-paginator/master/LICENSE" } }' "https://www.webjars.org/create?webJarType=bowergithub&nameOrUrlish=https://github.com/vaadin/vcf-paginator&version=1.0.0"

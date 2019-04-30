@@ -6,7 +6,7 @@
       "description": "",
       "summary": "",
       "sourceRange": {
-        "file": "src/incubator-paginator.html",
+        "file": "src/vcf-paginator.html",
         "start": {
           "line": 44,
           "column": 6
@@ -18,9 +18,9 @@
       },
       "elements": [
         {
-          "description": "`<incubator-paginator>` is a template for incubator components.\n\n```\n<incubator-paginator>\n</incubator-paginator>\n```",
+          "description": "`<vcf-paginator>` is a template for vcf components.\n\n```\n<vcf-paginator>\n</vcf-paginator>\n```",
           "summary": "",
-          "path": "src/incubator-paginator.html",
+          "path": "src/vcf-paginator.html",
           "properties": [],
           "methods": [],
           "staticMethods": [],
@@ -43,7 +43,7 @@
           },
           "privacy": "public",
           "superclass": "HTMLElement",
-          "name": "Vaadin.VaadinIncubatorElement",
+          "name": "Vaadin.VaadinVcfElement",
           "attributes": [],
           "events": [],
           "styling": {
@@ -51,7 +51,7 @@
             "selectors": []
           },
           "slots": [],
-          "tagname": "incubator-paginator"
+          "tagname": "vcf-paginator"
         }
       ]
     }

@@ -1,4 +1,4 @@
-<dom-module id="incubator-paginator-basic-demos">
+<dom-module id="vcf-paginator-basic-demos">
   <template>
     <style include="vaadin-component-demo-shared-styles">
       :host {
@@ -7,7 +7,7 @@
     </style>
 
     <h3>Demo sample</h3>
-    <vaadin-demo-snippet id="incubator-paginator-demo-sample">
+    <vaadin-demo-snippet id="vcf-paginator-demo-sample">
       <template preserve-content>
         <style>
           div#paginator-container {
@@ -19,16 +19,16 @@
         <p>Selected page: <span id="selected-page"></span></p>
 
         <div id="paginator-container">
-          <incubator-paginator id="my-paginator" total-pages="15" current-page="3">
-          </incubator-paginator>
+          <vcf-paginator id="my-paginator" total-pages="15" current-page="3">
+          </vcf-paginator>
         </div>
 
         <script>
-          window.addDemoReadyListener('#incubator-paginator-demo-sample', (document) => {
+          window.addDemoReadyListener('#vcf-paginator-demo-sample', (document) => {
             const paginator = document.querySelector('#my-paginator');
             const selectedPageLabel = document.querySelector('#selected-page');
             selectedPageLabel.innerText = paginator.currentPage;
-            paginator.addEventListener('incubator-paginator-page-change', (e) => {
+            paginator.addEventListener('vcf-paginator-page-change', (e) => {
               selectedPageLabel.innerText = e.detail.page;
             });
           });
@@ -38,11 +38,11 @@
 
   </template>
   <script>
-    class IncubatorPaginatorBasicDemos extends DemoReadyEventEmitter(ElementDemo(Polymer.Element)) {
+    class VcfPaginatorBasicDemos extends DemoReadyEventEmitter(ElementDemo(Polymer.Element)) {
       static get is() {
-        return 'incubator-paginator-basic-demos';
+        return 'vcf-paginator-basic-demos';
       }
     }
-    customElements.define(IncubatorPaginatorBasicDemos.is, IncubatorPaginatorBasicDemos);
+    customElements.define(VcfPaginatorBasicDemos.is, VcfPaginatorBasicDemos);
   </script>
 </dom-module>

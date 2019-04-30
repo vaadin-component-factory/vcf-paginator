@@ -1,25 +1,25 @@
 {
-  "name": "@vaadin/incubator-paginator",
+  "name": "@vaadin/vcf-paginator",
   "version": "1.0.0-beta2",
-  "description": "incubator-paginator",
-  "main": "incubator-paginator.html",
-  "repository": "vaadin/incubator-paginator",
+  "description": "vcf-paginator",
+  "main": "vcf-paginator.html",
+  "repository": "vaadin/vcf-paginator",
   "keywords": [
     "Vaadin",
-    "incubator-paginator",
+    "vcf-paginator",
     "web-components",
     "web-component",
     "polymer"
   ],
   "author": "Vaadin Ltd",
-  "license": "https://raw.githubusercontent.com/vaadin/incubator-paginator/master/LICENSE",
+  "license": "https://raw.githubusercontent.com/vaadin/vcf-paginator/master/LICENSE",
   "bugs": {
-    "url": "https://github.com/vaadin/incubator-paginator/issues"
+    "url": "https://github.com/vaadin/vcf-paginator/issues"
   },
   "homepage": "https://vaadin.com/components",
   "scripts": {
     "test": "wct",
-    "analyze": "polymer analyze incubator-paginator.html > analysis.json",
+    "analyze": "polymer analyze vcf-paginator.html > analysis.json",
     "preversion": "gulp version:update"
   },
   "devDependencies": {

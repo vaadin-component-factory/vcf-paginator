@@ -1,12 +1,12 @@
 {
-  "name": "Vaadin Incubator Element",
+  "name": "Vaadin Component Factory Element",
   "pages": [
   {
     "name": "Basics",
-    "url": "incubator-paginator-basic-demos",
-    "src": "incubator-paginator-basic-demos.html",
+    "url": "vcf-paginator-basic-demos",
+    "src": "vcf-paginator-basic-demos.html",
     "meta": {
-      "title": "incubator-paginator Basic Examples",
+      "title": "vcf-paginator Basic Examples",
       "description": "",
       "image": ""
      }

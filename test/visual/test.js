@@ -1,4 +1,4 @@
-gemini.suite('incubator-paginator', function(rootSuite) {
+gemini.suite('vcf-paginator', function(rootSuite) {
   function wait(actions, find) {
     actions.wait(5000);
   }

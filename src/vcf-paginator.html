@@ -11,7 +11,7 @@ See <a href="https://vaadin.com/license/cval-3">the website</a> for the complete
 <link rel="import" href="../../vaadin-element-mixin/vaadin-element-mixin.html">
 <link rel="import" href="../../vaadin-button/vaadin-button.html">
 
-<dom-module id="incubator-paginator">
+<dom-module id="vcf-paginator">
   <template>
     <style>
       :host {
@@ -62,19 +62,19 @@ See <a href="https://vaadin.com/license/cval-3">the website</a> for the complete
   <script>
     (function() {
       /**
-       * `<incubator-paginator>` is a template for incubator components.
+       * `<vcf-paginator>` is a template for Component Factory components.
        *
        * ```
-       * <incubator-paginator>
-       * </incubator-paginator>
+       * <vcf-paginator>
+       * </vcf-paginator>
        * ```
        *
        * @memberof Vaadin
        * @demo demo/index.html
        */
-      class IncubatorPaginator extends Vaadin.ElementMixin(Vaadin.ThemableMixin(Polymer.Element)) {
+      class VcfPaginator extends Vaadin.ElementMixin(Vaadin.ThemableMixin(Polymer.Element)) {
         static get is() {
-          return 'incubator-paginator';
+          return 'vcf-paginator';
         }
 
         static get properties() {
@@ -142,7 +142,7 @@ See <a href="https://vaadin.com/license/cval-3">the website</a> for the complete
             this.$.lastPageNavigator.removeAttribute('disabled');
           }
 
-          this.dispatchEvent(new CustomEvent('incubator-paginator-page-change', {
+          this.dispatchEvent(new CustomEvent('vcf-paginator-page-change', {
             detail: {
               page: this.currentPage
             }
@@ -175,15 +175,15 @@ See <a href="https://vaadin.com/license/cval-3">the website</a> for the complete
         }
       }
 
-      customElements.define(IncubatorPaginator.is, IncubatorPaginator);
+      customElements.define(VcfPaginator.is, VcfPaginator);
 
       /**
        * @namespace Vaadin
        */
-      window.Vaadin.IncubatorPaginator = IncubatorPaginator;
+      window.Vaadin.VcfPaginator = VcfPaginator;
 
       if (window.Vaadin.runIfDevelopmentMode) {
-        window.Vaadin.runIfDevelopmentMode('vaadin-license-checker', IncubatorPaginator);
+        window.Vaadin.runIfDevelopmentMode('vaadin-license-checker', VcfPaginator);
       }
     })();
   </script>
