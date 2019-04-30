@@ -37,7 +37,7 @@
     </vaadin-demo-snippet>
 
     <h3>Paginator - Truncation</h3>
-    <vaadin-demo-snippet id="incubator-paginator-demo-truncation">
+    <vaadin-demo-snippet id="vcf-paginator-demo-truncation">
       <template preserve-content>
         <style>
           div#paginator-container {
@@ -49,16 +49,16 @@
         <p>Selected page: <span id="selected-page"></span></p>
 
         <div id="paginator-container">
-          <incubator-paginator id="my-paginator" total-pages="15" current-page="3" truncation>
-          </incubator-paginator>
+          <vcf-paginator id="my-paginator" total-pages="15" current-page="3" truncation>
+          </vcf-paginator>
         </div>
 
         <script>
-          window.addDemoReadyListener('#incubator-paginator-demo-truncation', (document) => {
+          window.addDemoReadyListener('#vcf-paginator-demo-truncation', (document) => {
             const paginator = document.querySelector('#my-paginator');
             const selectedPageLabel = document.querySelector('#selected-page');
             selectedPageLabel.innerText = paginator.currentPage;
-            paginator.addEventListener('incubator-paginator-page-change', (e) => {
+            paginator.addEventListener('vcf-paginator-page-change', (e) => {
               selectedPageLabel.innerText = e.detail.page;
             });
           });
