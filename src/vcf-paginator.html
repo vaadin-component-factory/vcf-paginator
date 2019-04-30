@@ -142,16 +142,10 @@ See <a href="https://vaadin.com/license/cval-3">the website</a> for the complete
           } else if (this.$.lastPageNavigator.hasAttribute('disabled')) {
             this.$.lastPageNavigator.removeAttribute('disabled');
           }
-<<<<<<< HEAD:src/vcf-paginator.html
-
-          this.dispatchEvent(new CustomEvent('vcf-paginator-page-change', {
-=======
-          
           if (this.truncation) {
             this._generatePages();
           }
-          this.dispatchEvent(new CustomEvent('incubator-paginator-page-change', {
->>>>>>> d12b5f0271ee5b796af8efa693b3dd5c517cdcda:src/incubator-paginator.html
+          this.dispatchEvent(new CustomEvent('vcf-paginator-page-change', {
             detail: {
               page: this.currentPage
             }
@@ -221,13 +215,7 @@ See <a href="https://vaadin.com/license/cval-3">the website</a> for the complete
         }
       }
 
-<<<<<<< HEAD:src/vcf-paginator.html
       customElements.define(VcfPaginator.is, VcfPaginator);
-=======
-      
-
-      customElements.define(IncubatorPaginator.is, IncubatorPaginator);
->>>>>>> d12b5f0271ee5b796af8efa693b3dd5c517cdcda:src/incubator-paginator.html
 
       /**
        * @namespace Vaadin
