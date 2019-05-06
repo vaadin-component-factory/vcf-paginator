@@ -1,23 +1,25 @@
-[![Build Status](https://travis-ci.org/vaadin/vcf-paginator.svg?branch=master)](https://travis-ci.org/vaadin/vcf-paginator)
+# vcf-paginator Web Component
+
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vaadin/web-components?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Published on Vaadin  Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/vaadin-component-factoryvcf-paginator)
 
-# &lt;vcf-paginator&gt;
+&lt;vcf-paginator&gt; is a Web Component providing an easy way to display a full functioning paginator on a webpage.
 
-[Live Demo ↗](https://incubator.app.fi/vcf-breadcrumb-demo)
+[Live Demo ↗](https://incubator.app.fi/paginator-demo/paginator)
 
-[&lt;vcf-paginator&gt;](https://vaadin.com/directory/component/vaadinvcf-paginator) is a Web Component providing an easy way to display a full functioning paginator on a webpage.
 
+[<img src="https://raw.githubusercontent.com/vaadin/incubator-paginator/master/screenshot.png" width="400" alt="Screenshot of vcf-paginator">](https://vaadin.com/directory/component/vaadinvcf-paginator)
+
+## Usage
+Add `<vcf-paginator>` component to page. Set `total-pages` and `current-page` attributes for the component. 
 ```html
-  <vcf-paginator id="my-paginator" total-pages="15" current-page="3">
+  <vcf-paginator id="my-paginator" total-pages="15" current-page="4">
   </vcf-paginator>
 ```
 
-[<img src="https://raw.githubusercontent.com/vaadin/vcf-paginator/master/screenshot.png" width="200" alt="Screenshot of vcf-paginator">](https://vaadin.com/directory/component/vaadinvcf-paginator)
-
-
 ## Installation
 
-The Vaadin Component Factory components are distributed as Bower packages.
+This components is distributed as Bower packages.
 
 ### Polymer 2 and HTML Imports compatible version
 
@@ -86,8 +88,10 @@ We are using [ESLint](http://eslint.org/) for linting JavaScript code. You can c
   - Wait for response from one of Vaadin components team members
 
 
-## License
+# Vaadin Prime
+This component is available in Vaadin Prime subscription. It is still open source, but you need to have a valid CVAL license in order to use it. Read more at: https://vaadin.com/pricing
 
+# License
 Commercial Vaadin Add-on License version 3 (CVALv3). For license terms, see LICENSE.
 
 Vaadin collects development time usage statistics to improve this product. For details and to opt-out, see https://github.com/vaadin/vaadin-usage-statistics.
