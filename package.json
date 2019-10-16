@@ -1,6 +1,6 @@
 {
   "name": "@vaadin-component-factory/vcf-paginator",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Web Component for displaying a full functioning paginator on a webpage.",
   "main": "theme/lumo/vcf-paginator.js",
   "author": "Vaadin Ltd",
