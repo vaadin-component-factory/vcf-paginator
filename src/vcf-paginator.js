@@ -82,6 +82,10 @@ class VcfPaginator extends ElementMixin(ThemableMixin(PolymerElement)) {
     return 'vcf-paginator';
   }
 
+  static get version() {
+    return '1.1.0';
+  }
+
   static get properties() {
     return {
       currentPage: {
