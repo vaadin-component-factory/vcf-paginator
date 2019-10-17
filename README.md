@@ -25,7 +25,7 @@ npm i @vaadin-component-factory/vcf-paginator --save
 Once installed, import it in your application:
 
 ```js
-import '@vaadin-component-factory/vcf-paginator/vcf-paginator.js';
+import '@vaadin-component-factory/vcf-paginator';
 ```
 
 Add `<vcf-paginator>` component to page. Set `total-pages` and `current-page` attributes for the component.
