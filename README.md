@@ -88,9 +88,11 @@ We are using [ESLint](http://eslint.org/) for linting JavaScript code. You can c
   - Wait for response from one of Vaadin components team members
 
 
-# Vaadin Prime
-This component is available in Vaadin Prime subscription. It is still open source, but you need to have a valid CVAL license in order to use it. Read more at: https://vaadin.com/pricing
+## License & Author
 
-# License
+This Add-on is distributed under Apache 2.0
 
-Apache License 2.0
+Component Factory Paginator is written by Vaadin Ltd.
+
+### Sponsored development
+Major pieces of development of this add-on has been sponsored by multiple customers of Vaadin. Read more  about Expert on Demand at: [Support](https://vaadin.com/support) and  [Pricing](https://vaadin.com/pricing)
